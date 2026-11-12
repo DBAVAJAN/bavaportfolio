@@ -1,14 +1,17 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "bava-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Personal portfolio website built with React, TypeScript, Vite, and Tailwind CSS.",
+  "homepage": "https://bavaportfolio.dev",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview --host 0.0.0.0",
+    "start": "vite --host 0.0.0.0"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
